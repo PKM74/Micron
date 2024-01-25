@@ -16,7 +16,7 @@ int *Loop2;
 
 int main()
 {
-printf(Name "Version " Version "\n");
+printf(Name "Version " Version "\n" "Made By PKM74\n");
 
 while(1 == 1){
 
