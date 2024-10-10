@@ -1,5 +1,5 @@
 /*----------------*\
-|Nanite OS         |
+|MICRON SHELL      |
 |Copyright (C) 2024|
 |Tyler McGurrin    |
 \*----------------*/
@@ -15,7 +15,8 @@
 #define version "0.0.1a"
 #define cursor ":\\>"
 #define hostname "[NOT IMPLEMENTED YET]"
-#define os_logo " _   _             _ _         _____ _____ \n| \\ | |           (_) |       |  _  /  ___|\n|  \\| | __ _ _ __  _| |_ ___  | | | \\ `--. \n| . ` |/ _` | '_ \\| | __/ _ \\ | | | |`--. \\\n| |\\  | (_| | | | | | ||  __/ \\ \\_/ /\\__/ /\n\\_| \\_/\\__,_|_| |_|_|\\__\\___|  \\___/\\____/                                            \n"
+#define os_logo "[PLACEHOLDER]"
+//#define os_logo " _   _             _ _         _____ _____ \n| \\ | |           (_) |       |  _  /  ___|\n|  \\| | __ _ _ __  _| |_ ___  | | | \\ `--. \n| . ` |/ _` | '_ \\| | __/ _ \\ | | | |`--. \\\n| |\\  | (_| | | | | | ||  __/ \\ \\_/ /\\__/ /\n\\_| \\_/\\__,_|_| |_|_|\\__\\___|  \\___/\\____/                                            \n"
 #define shell_logo "  __  __ _                      __    __  \n |  \\/  (_) ___ _ __ ___  _ __  \\ \\   \\ \\ \n | |\\/| | |/ __| '__/ _ \\| '_ \\(_) \\   \\ \\\n | |  | | | (__| | | (_) | | | |_ \\ \\  / /\n |_|  |_|_|\\___|_|  \\___/|_| |_(_) \\_\\/_/ \n                                          \n"
 int invalid_command = 0;
 int command_list_length = 10; //does not NEED to match command list's length just helps with slower machines to keep this small and it can get buggy if too large
