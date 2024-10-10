@@ -7,4 +7,5 @@ Text Editor (Upcoming)
 
 ## NOTES
 Designed to be used with Nanite OS or Linux
+
 Made By PKM74
